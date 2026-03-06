@@ -4,7 +4,7 @@ QuickTouch is a high-performance order picking assistant designed specifically f
 
 ![QuickTouch App Screenshot](public/quicktouch.jpg)
 
-## ⚡ Features
+## Features
 
 - **Lightning Fast Pickup:** Accept orders in 50ms (Gold Tier) or 150ms (Standard Tier).
 - **Location-Smart Filtering:** Prioritizes restaurants nearest to your GPS location.
@@ -12,13 +12,13 @@ QuickTouch is a high-performance order picking assistant designed specifically f
 - **Package Filtering:** Automatically skips package-only orders to keep your workflow efficient.
 - **Order Analytics:** Track your daily, weekly, and monthly pick counts directly in the app.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** [Vite](https://vitejs.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - **Package Manager:** [Bun](https://bun.sh/)
 - **Styling:** Vanilla CSS (Custom UI kit)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -52,13 +52,13 @@ bun run build
 
 The output will be in the `dist/` directory.
 
-## 📱 Requirements
+## Requirements
 
 - Android 11 or above.
 - Active Chowdeck Rider account.
 - Active QuickTouch License Key.
 
-## 📄 License & Contact
+## License & Contact
 
 Built by **TechyTro Software**. For support or activation keys, contact us via the links provided on the [QuickTouch Website](https://quicktouchchowdeck.netlify.app).
 
