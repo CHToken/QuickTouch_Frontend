@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Outfit:wght@300;400;500;600;700;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
     <div class="hero-left">
       <div class="hero-eyebrow">
         <span class="dot"></span>
-        Smart Order PickUp &middot;
+        Smart Order PickUp &middot; TURBO
       </div>
       <h1>
         <span class="block">Accept Orders</span>
@@ -88,7 +89,7 @@
           </div>
         </div>
         <div class="phone-frame">
-          <img src="quicktouch.jpg" alt="QuickTouch App Screenshot">
+          <img src="screenshot.jpg" alt="QuickTouch App Screenshot">
         </div>
         <div class="badge-float b2">
           <div class="badge-icon">
@@ -474,7 +475,30 @@
     </svg>
   </a>
 
-  <script type="module" src="/src/main.ts"></script>
+  <script>
+    // Show sections as they scroll into view
+    var revealEls = document.querySelectorAll('.reveal');
+
+    function checkReveal() {
+      var windowHeight = window.innerHeight;
+      revealEls.forEach(function (el) {
+        var rect = el.getBoundingClientRect();
+        if (rect.top < windowHeight - 50) {
+          el.classList.add('visible');
+        }
+      });
+    }
+
+    // Run on load immediately
+    checkReveal();
+
+    // Run on every scroll
+    window.addEventListener('scroll', checkReveal, { passive: true });
+
+    // Also run after a short delay in case fonts/images shift layout
+    setTimeout(checkReveal, 300);
+    setTimeout(checkReveal, 800);
+  </script>
 </body>
 
 </html>
