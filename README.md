@@ -60,7 +60,7 @@ The output will be in the `dist/` directory.
 
 ## 📄 License & Contact
 
-Built by **TechyTro Software**. For support or activation keys, contact us via the links provided on the [QuickTouch Website](index.html).
+Built by **TechyTro Software**. For support or activation keys, contact us via the links provided on the [QuickTouch Website](https://quicktouchchowdeck.netlify.app).
 
 ---
 © 2026 QuickTouch by TechyTro Software. Built for the hustle.
