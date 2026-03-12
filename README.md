@@ -1,12 +1,12 @@
 # QuickTouch — Smart Order PickUp
 
-QuickTouch is a high-performance order picking assistant designed specifically for **Chowdeck Riders** in Nigeria. It automates the order acceptance process, allowing riders to pick orders in as little as **50ms**.
+QuickTouch is a high-performance order picking assistant designed for delivery riders. It automates the order acceptance process, allowing riders to pick orders in as little as **15ms**.
 
 ![QuickTouch App Screenshot](public/quicktouch.jpg)
 
 ## Features
 
-- **Lightning Fast Pickup:** Accept orders in 50ms (Gold Tier) or 150ms (Standard Tier).
+- **Lightning Fast Pickup:** Accept orders in 15ms (Gold Tier) or 50ms (Standard Tier).
 - **Location-Smart Filtering:** Prioritizes restaurants nearest to your GPS location.
 - **Favorite Restaurants:** (Bicycle mode) Set preferred spots for priority picking.
 - **Package Filtering:** Automatically skips package-only orders to keep your workflow efficient.
@@ -63,4 +63,4 @@ The output will be in the `dist/` directory.
 Built by **TechyTro Software**. For support or activation keys, contact us via the links provided on the [QuickTouch Website](https://quicktouchchowdeck.netlify.app).
 
 ---
-© 2026 QuickTouch by TechyTro Software. Built for the hustle.
+© 2026 QuickTouch by TechyTro Software. Built for the Riders.
